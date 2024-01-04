@@ -1,8 +1,8 @@
 LICENCE.txt
 README.md
 setup.py
-mycli/__init__.py
-mycli/cli.py
+myfirstproject/__init__.py
+myfirstproject/cli.py
 myproject.egg-info/PKG-INFO
 myproject.egg-info/SOURCES.txt
 myproject.egg-info/dependency_links.txt
