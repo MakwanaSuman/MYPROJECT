@@ -14,7 +14,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'myproject=mycli.cli:cli',
+            'myproject=myfirstproject.cli:cli',
         ],
     },
     author='suman',
