@@ -2,6 +2,7 @@ from setuptools import setup, find_packages
 
 with open('README.md', encoding='utf-8') as f:
     long_description = f.read()
+    print(long_description)
 
 setup(
     name='mycli',
@@ -26,4 +27,9 @@ setup(
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
     ],
+    install_requires=["bson >= 0.5.10"],
+    extras_require={
+        "dev": ["pytest>=7.0", "twine>=4.0.2"],
+    },
+    python_requires=">=3.10",
 )
