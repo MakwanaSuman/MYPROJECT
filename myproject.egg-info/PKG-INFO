@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: myproject
+Version: 0.1.0
+Summary: Your CLI Tool Description
+Home-page: https://github.com/MakwanaSuman/MYCLI
+Author: suman
+Author-email: yl@logicode.in
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENCE.txt
+
+# MyCLI
+
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Python Version](https://img.shields.io/badge/python-3.6%2B-blue.svg)](https://www.python.org/downloads/)
+
+MyCLI is a simple command-line interface (CLI) tool built with Click.
+
+## Features
+
+- **Greeting Command:** Say hello to someone.
+- **Version Command:** Display the version of the CLI tool.
+
+## Installation
+
+```bash
+pip install mycli

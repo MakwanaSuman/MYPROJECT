@@ -5,7 +5,7 @@ with open('README.md', encoding='utf-8') as f:
     print(long_description)
 
 setup(
-    name='mycli',
+    name='myproject',
     version='0.1.0',
     packages=find_packages(),
     install_requires=[
@@ -14,7 +14,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'mycli=mycli.cli:cli',
+            'myproject=mycli.cli:cli',
         ],
     },
     author='suman',
@@ -27,7 +27,11 @@ setup(
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
     ],
-    install_requires=["bson >= 0.5.10"],
+    # install_requires=['click',
+    #                     "bson >= 0.5.10", 
+    #                   "requests_toolbelt = 1.0.0",
+    #                   "urllib3 = 2.1.0",],
+                    
     extras_require={
         "dev": ["pytest>=7.0", "twine>=4.0.2"],
     },
