@@ -2,12 +2,14 @@ Metadata-Version: 2.1
 Name: myproject
 Version: 0.1.0
 Summary: Your CLI Tool Description
-Home-page: https://github.com/MakwanaSuman/MYCLI
+Home-page: https://github.com/MakwanaSuman/MYPROJECT
 Author: suman
 Author-email: yl@logicode.in
+License: UNKNOWN
+Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
-Requires-Python: >=3.10
+Requires-Python: >=3.9.6
 Description-Content-Type: text/markdown
 Provides-Extra: dev
 License-File: LICENCE.txt
@@ -28,3 +30,5 @@ MyCLI is a simple command-line interface (CLI) tool built with Click.
 
 ```bash
 pip install mycli
+
+
