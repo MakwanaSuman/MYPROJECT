@@ -22,7 +22,7 @@ setup(
     description='Your CLI Tool Description',
     long_description=long_description,  # Include the contents of README.md
     long_description_content_type='text/markdown',
-    url='https://github.com/MakwanaSuman/MYCLI',
+    url='https://github.com/MakwanaSuman/MYPROJECT',
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
